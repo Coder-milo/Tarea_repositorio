@@ -1,0 +1,77 @@
+body {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  text-align: center;
+  background-color: #f3f3f3;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+select, button {
+  padding: 1rem;
+  margin: 1rem;
+  width: 90%;
+  max-width: 300px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.repo-card {
+  background-color: white;
+  margin: 20px auto;
+  text-align: left;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.repo-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  gap: 10px;
+}
+
+.repo-name {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 80%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-tag {
+  color: darkred;
+}
+
+.hidden {
+  display: none;
+}
+.language{
+  width: 100%;
+}
